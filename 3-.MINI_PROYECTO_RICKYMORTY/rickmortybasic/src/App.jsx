@@ -35,9 +35,10 @@ React.useEffect(()=> {  //El useEffect lo que nos va permitir es tener disponibl
     <>
       {characterList.map((character) => (
         <div key={character.id}>
-          <h2>id: {character.id}</h2>
-          <h2>name: {character.name}</h2>
-          <h2>status: {character.status}</h2>
+          <img url={character.image} src={character.image} alt={character.name}/>
+          <h3>#{character.id}</h3>
+          <h2>{character.name}</h2>
+          <h3>Status: {character.status}</h3>
         </div>
       ))}
     </>
