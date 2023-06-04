@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: Calibri;
   font-size: 24px;
@@ -17,7 +19,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #e7e7e6;
+  border-radius: 30px;
 }
 
 .TitleSection input {
@@ -27,6 +31,7 @@ body {
   border: 1px solid #5e98b1;
   font-size: 18px;
   padding-left: 10px;
+ 
 }
 
 .TitleSection button {
@@ -43,4 +48,26 @@ body {
 
 .TitleSection button:hover {
   cursor: pointer;
+}
+
+.DisplaySection{
+
+  margin-top: 0.5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  background-color: pink;
+  border-radius: 30px;
+  border: 5px dotted rgb(129, 114, 215);
+}
+
+.DisplaySection  h1{
+  font-size:larger;
+  margin: 0.5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  
 }
