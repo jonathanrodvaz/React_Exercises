@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import DigitalClock from './components/DigitalClock/DigitalClock.jsx'
 import Countdown from './components/Countdown/Countdown.jsx'
 import Stopwatch from './components/Stopwatch/Stopwatch.jsx'
