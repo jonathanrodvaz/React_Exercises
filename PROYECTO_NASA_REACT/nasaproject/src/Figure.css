@@ -1,0 +1,19 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+figure>img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 33.5vw;
+    object-fit: contain;
+    margin: 0.5rem;
+    
+}
